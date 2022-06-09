@@ -8,11 +8,19 @@
   <Body>
     <!-- ========================================================================================================================================== -->
     <SkinTypes>
-      <SkinType ID="5" Name="Draconic"/>
-      <SkinType ID="1" Name="Fur"/>
-      <SkinType ID="3" Name="Goo"/>
-      <SkinType ID="2" Name="Scales"/>
       <SkinType ID="0" Name="Skin"/>
+      <SkinType ID="1" Name="Fur"/>
+      <SkinType ID="2" Name="Scales"/>
+      <SkinType ID="3" Name="Goo"/>
+      <SkinType ID="5" Name="Chitin"/>
+      <SkinType ID="6" Name="Bark"/>
+      <SkinType ID="7" Name="Stone"/>
+      <SkinType ID="9" Name="Aqua Scales"/>
+      <SkinType ID="14" Name="Dragon Scales"/>
+      <SkinType ID="15" Name="Moss"/>
+      <SkinType ID="19" Name="Aqua Rubber Like"/>
+      <SkinType ID="21" Name="Feather"/>
+      <SkinType ID="22" Name="Transparent"/>
     </SkinTypes>
     <!-- ========================================================================================================================================== -->
     <SkinDescriptions>
@@ -72,12 +80,28 @@
     </SkinTones>
     <!-- ========================================================================================================================================== -->
     <HairTypes>
-      <HairType ID="4" Name="Anemone"/>
-      <HairType ID="1" Name="Feathery (harpy)"/>
+      <HairType ID="0" Name="Normal"/>
+      <HairType ID="1" Name="Feather"/>
+      <HairType ID="2" Name="Ghost"/>
       <HairType ID="3" Name="Goo"/>
-      <HairType ID="0" Name="Human"/>
-      <HairType ID="2" Name="Transparent (ghostly)"/>
+      <HairType ID="4" Name="Anemone"/>
       <HairType ID="5" Name="Quill"/>
+      <HairType ID="6" Name="Gorgon"/>
+      <HairType ID="7" Name="Leaf"/>
+      <HairType ID="8" Name="Fluffy"/>
+      <HairType ID="9" Name="Grass"/>
+      <HairType ID="10" Name="Silken"/>
+      <HairType ID="11" Name="Storm"/>
+      <HairType ID="12" Name="Burning"/>
+      <HairType ID="13" Name="Snowy"/>
+      <HairType ID="14" Name="Fairy"/>
+      <HairType ID="15" Name="Crazy"/>
+      <HairType ID="16" Name="Windswept"/>
+      <HairType ID="17" Name="Ratatoskr"/>
+      <HairType ID="18" Name="Prismatic"/>
+      <HairType ID="19" Name="Mindbreaker"/>
+      <HairType ID="20" Name="Mindbreaker (Male)"/>
+      <HairType ID="21" Name="Cow"/>
     </HairTypes>
     <!-- ========================================================================================================================================== -->
     <HairColors>
@@ -213,30 +237,64 @@
     </BeardTypes>
     <!-- ========================================================================================================================================== -->
     <FaceTypes>
-      <FaceType ID="20" Name="Boar"/>
-      <FaceType ID="8"  Name="Bunny"/>
-      <FaceType ID="6"  Name="Cat"/>
-      <FaceType ID="3"  Name="Cow/Minotaur"/>
-      <FaceType ID="23" Name="Deer"/>
-      <FaceType ID="2"  Name="Dog"/>
-      <FaceType ID="12" Name="Dragon"/>
-      <FaceType ID="22" Name="Echidna"/>
-      <FaceType ID="17" Name="Ferret mask"/>
-      <FaceType ID="18" Name="Ferret face"/>
-      <FaceType ID="11" Name="Fox"/>
+      <FaceType ID="0" Name="Human"/>
       <FaceType ID="1"  Name="Horse"/>
-      <FaceType ID="0"  Name="Human"/>
-      <FaceType ID="9"  Name="Kangaroo"/>
-      <FaceType ID="7"  Name="Lizard"/>
-      <FaceType ID="15" Name="Mouse buckteeth"/>
-      <FaceType ID="16" Name="Mouse face"/>
+      <FaceType ID="2"  Name="Dog"/>
+      <FaceType ID="3"  Name="Cow/Minotaur"/>
+      <FaceType ID="4" Name="Shark Teeth"/>
+      <FaceType ID="5"  Name="Snake Fangs"/>
+      <FaceType ID="6" Name="Cat"/>
+      <FaceType ID="7" Name="Lizard"/>
+      <FaceType ID="8" Name="Bunny"/>
+      <FaceType ID="9" Name="Kangaroo"/>
+      <FaceType ID="10" Name="Spider Fangs"/>
+      <FaceType ID="11"  Name="Fox"/>
+      <FaceType ID="12"  Name="Dragon"/>
+      <FaceType ID="13"  Name="Raccoon Mask"/>
+      <FaceType ID="14" Name="Raccoon"/>
+      <FaceType ID="15"  Name="Mouse Buckteeth"/>
+      <FaceType ID="16" Name="Mouse"/>
+      <FaceType ID="17" Name="Ferret mask"/>
+      <FaceType ID="18" Name="Ferret"/>
       <FaceType ID="19" Name="Pig"/>
-      <FaceType ID="13" Name="Raccoon mask"/>
-      <FaceType ID="14" Name="Raccoon face"/>
-      <FaceType ID="21" Name="Rhino"/>
-      <FaceType ID="4"  Name="Shark teeth"/>
-      <FaceType ID="5"  Name="Snake fangs"/>
-      <FaceType ID="10" Name="Spider fangs"/>
+      <FaceType ID="20" Name="Boar"/>
+      <FaceType ID="21"  Name="Rhino"/>
+      <FaceType ID="22"  Name="Echidna"/>
+      <FaceType ID="23"  Name="Deer"/>
+      <FaceType ID="24" Name="Wolf"/>
+      <FaceType ID="25"  Name="Manticore"/>
+      <FaceType ID="26" Name="Salamander Fangs"/>
+      <FaceType ID="27" Name="Yeti Fangs"/>
+      <FaceType ID="28" Name="Orca"/>
+      <FaceType ID="29" Name="Plant Dragon?"/>
+      <FaceType ID="30" Name="Dragon Fangs"/>
+      <FaceType ID="31"  Name="Devil Fangs"/>
+      <FaceType ID="32"  Name="Oni Teeth"/>
+      <FaceType ID="33"  Name="Weasel"/>
+      <FaceType ID="34" Name="Vampire"/>
+      <FaceType ID="35"  Name="Jabb. Buckteeth"/>
+      <FaceType ID="36" Name="Jabberwocky"/>
+      <FaceType ID="37" Name="Red Panda"/>
+      <FaceType ID="38" Name="Cat Canines"/>
+      <FaceType ID="39" Name="Cheshire"/>
+      <FaceType ID="40" Name="Cheshire Smile"/>
+      <FaceType ID="41"  Name="Avian"/>
+      <FaceType ID="42"  Name="Wolf Fangs"/>
+      <FaceType ID="43"  Name="Orc Fangs"/>
+      <FaceType ID="44" Name="Animal Teeth"/>
+      <FaceType ID="45"  Name="Bear"/>
+      <FaceType ID="46" Name="Panda"/>
+      <FaceType ID="47" Name="Fire Snail"/>
+      <FaceType ID="48" Name="Ghost"/>
+      <FaceType ID="49" Name="Jiangshi"/>
+      <FaceType ID="50" Name="Yuki Onna"/>
+      <FaceType ID="51"  Name="Kudere"/>
+      <FaceType ID="52"  Name="Ushi Oni"/>
+      <FaceType ID="53"  Name="Fairy"/>
+      <FaceType ID="54" Name="Crazy"/>
+      <FaceType ID="55"  Name="Smug"/>
+      <FaceType ID="56" Name="Squirrel"/>
+      <FaceType ID="57" Name="Elf"/>
     </FaceTypes>
     <!-- ========================================================================================================================================== -->
     <TongueTypes>
@@ -248,69 +306,207 @@
     </TongueTypes>
     <!-- ========================================================================================================================================== -->
     <EyeTypes>
-      <EyeType ID="5" Name="Basilisk"/>
-      <EyeType ID="2" Name="Black (Sand Trap)"/>
-      <EyeType ID="4" Name="Dragon"/>
       <EyeType ID="0" Name="Human"/>
-      <EyeType ID="3" Name="Lizard"/>
       <EyeType ID="1" Name="Spider (4&#x00D7; eyes)"/>
+      <EyeType ID="2" Name="Black (Sand Trap)"/>
+      <EyeType ID="3" Name="Cat"/>
+      <EyeType ID="4" Name="Gorgon"/>
+      <EyeType ID="5" Name="Fenrir"/>
+      <EyeType ID="6" Name="Manticore"/>
+      <EyeType ID="7" Name="Fox"/>
+      <EyeType ID="8" Name="Lizard"/>
+      <EyeType ID="9" Name="Snake"/>
+      <EyeType ID="10" Name="Draconic"/>
+      <EyeType ID="11" Name="Devil"/>
+      <EyeType ID="12" Name="Oni"/>
+      <EyeType ID="13" Name="Elf"/>
+      <EyeType ID="14" Name="Raiju"/>
+      <EyeType ID="15" Name="Vampire"/>
+      <EyeType ID="16" Name="Gemstone"/>
+      <EyeType ID="17" Name="Feral"/>
+      <EyeType ID="18" Name="Gryphon"/>
+      <EyeType ID="19" Name="Infernal"/>
+      <EyeType ID="20" Name="Orc"/>
+      <EyeType ID="21" Name="Cave Wyrm"/>
+      <EyeType ID="22" Name="Hinezumi"/>
+      <EyeType ID="23" Name="Bear"/>
+      <EyeType ID="24" Name="Displacer"/>
+      <EyeType ID="25" Name="Fire Snail"/>
+      <EyeType ID="26" Name="Ghost"/>
+      <EyeType ID="27" Name="Jiangshi"/>
+      <EyeType ID="28" Name="Goat"/>
+      <EyeType ID="29" Name="Centipede NODESC"/>
+      <EyeType ID="30" Name="Kraken"/>
+      <EyeType ID="31" Name="Frostwyrm"/>
+      <EyeType ID="32" Name="Cancer"/>
+      <EyeType ID="33" Name="Fairy"/>
+      <EyeType ID="34" Name="Gremlin"/>
+      <EyeType ID="35" Name="Weasel"/>
+      <EyeType ID="36" Name="Mono eye"/>
+      <EyeType ID="37" Name="Ratatoskr"/>
+      <EyeType ID="38" Name="Fiendish"/>
+      <EyeType ID="39" Name="Dead"/>
+      <EyeType ID="40" Name="Mindbreaker"/>
+      <EyeType ID="41" Name="Mindbreaker (Male)"/>
+      <EyeType ID="42" Name="Fiendish Snake"/>
     </EyeTypes>
     <!-- ========================================================================================================================================== -->
     <EarTypes>
-      <EarType ID="7"  Name="Bunny"/>
-      <EarType ID="5"  Name="Cat"/>
-      <EarType ID="3"  Name="Cow/Minotaur"/>
-      <EarType ID="17" Name="Deer"/>
-      <EarType ID="2"  Name="Dog"/>
-      <EarType ID="10" Name="Dragon"/>
-      <EarType ID="16" Name="Echidna"/>
-      <EarType ID="4"  Name="Elfin"/>
-      <EarType ID="13" Name="Ferret"/>
-      <EarType ID="9"  Name="Fox"/>
-      <EarType ID="1"  Name="Horse"/>
       <EarType ID="0"  Name="Human"/>
-      <EarType ID="8"  Name="Kangaroo"/>
-      <EarType ID="6"  Name="Lizard"/>
-      <EarType ID="12" Name="Mouse"/>
+      <EarType ID="1"  Name="Horse"/>
+      <EarType ID="2"  Name="Dog"/>
+      <EarType ID="3" Name="Cow/Minotaur"/>
+      <EarType ID="4"  Name="Elfin"/>
+      <EarType ID="5" Name="Cat"/>
+      <EarType ID="6" Name="Lizard"/>
+      <EarType ID="7"  Name="Bunny"/>
+      <EarType ID="8" Name="Kangaroo NODESC"/>
+      <EarType ID="9"  Name="Fox"/>
+      <EarType ID="10"  Name="Dragon"/>
+      <EarType ID="11"  Name="Raccoon"/>
+      <EarType ID="12"  Name="Mouse"/>
+      <EarType ID="13"  Name="Ferret"/>
       <EarType ID="14" Name="Pig"/>
-      <EarType ID="11" Name="Raccoon"/>
       <EarType ID="15" Name="Rhino"/>
+      <EarType ID="16" Name="Echidna"/>
+      <EarType ID="17" Name="Deer"/>
+      <EarType ID="18" Name="Wolf"/>
+      <EarType ID="19" Name="Lion"/>
+      <EarType ID="20"  Name="Yeti"/>
+      <EarType ID="21"  Name="Orca fins"/>
+      <EarType ID="22"  Name="Orca"/>
+      <EarType ID="23"  Name="Snake"/>
+      <EarType ID="24" Name="Goat"/>
+      <EarType ID="25" Name="Oni"/>
+      <EarType ID="26" Name="Elven"/>
+      <EarType ID="27" Name="Raiju"/>
+      <EarType ID="28" Name="Bat"/>
+      <EarType ID="29" Name="Vampire"/>
+      <EarType ID="30"  Name="Red Panda"/>
+      <EarType ID="31"  Name="Avian"/>
+      <EarType ID="32"  Name="Gryphon"/>
+      <EarType ID="33"  Name="Cave Wyrm"/>
+      <EarType ID="34" Name="Bear"/>
+      <EarType ID="35" Name="Panda"/>
+      <EarType ID="36" Name="Shark"/>
+      <EarType ID="37" Name="Displacer"/>
+      <EarType ID="38" Name="Melkie"/>
+      <EarType ID="39" Name="Gremlin"/>
+      <EarType ID="40" Name="Weasel"/>
+      <EarType ID="41" Name="Squirrel"/>
     </EarTypes>
     <!-- ========================================================================================================================================== -->
     <HornTypes>
       <HornType ID="0" Name="None"/>
-      <HornType ID="5" Name="Antlers"/>
-      <HornType ID="2" Name="Cow/Minotaur"/>
       <HornType ID="1" Name="Demon"/>
+      <HornType ID="2" Name="Cow/Minotaur"/>
       <HornType ID="3" Name="Draconic &#x00D7;2"/>
       <HornType ID="4" Name="Draconic &#x00D7;4 (12&#x2033; long)"/>
+      <HornType ID="5" Name="Antlers"/>
       <HornType ID="6" Name="Goat"/>
-      <HornType ID="8" Name="Rhino"/>
       <HornType ID="7" Name="Unicorn"/>
+      <HornType ID="8" Name="Rhino"/>
+      <HornType ID="9" Name="Oak"/>
+      <HornType ID="10" Name="Gargoyle"/>
+      <HornType ID="11" Name="Orchid"/>
+      <HornType ID="12" Name="Oni &#x00D7;2"/>
+      <HornType ID="13" Name="Oni"/>
+      <HornType ID="14" Name="Bircorn"/>
+      <HornType ID="15" Name="Ghostly Wisps"/>
+      <HornType ID="16" Name="Spell Tag"/>
+      <HornType ID="17" Name="Oni &#x00D7;4"/>
+      <HornType ID="18" Name="Kraken"/>
+      <HornType ID="19" Name="Frostwyrm"/>
+      <HornType ID="20" Name="Ushi Oni"/>
+      <HornType ID="21" Name="Sea Dragon"/>
+      <HornType ID="22" Name="Jabberwocky"/>
     </HornTypes>
     <!-- ========================================================================================================================================== -->
     <AntennaeTypes>
       <AntennaeType ID="0" Name="None"/>
+      <AntennaeType ID="1" Name="Mantis"/>
       <AntennaeType ID="2" Name="Bee"/>
+      <AntennaeType ID="3" Name="Cockatrice"/>
+      <AntennaeType ID="4" Name="Fire Snail"/>
+      <AntennaeType ID="5" Name="Moth"/>
+      <AntennaeType ID="6" Name="Centipede"/>
+      <AntennaeType ID="7" Name="Sea Dragon"/>
+      <AntennaeType ID="8" Name="Jabberwocky"/>
     </AntennaeTypes>
     <!-- ========================================================================================================================================== -->
     <ArmTypes>
-      <ArmType ID="1" Name="Harpy"/>
       <ArmType ID="0" Name="Human"/>
-      <ArmType ID="4" Name="Predator"/>
-      <ArmType ID="5" Name="Salamander"/>
+      <ArmType ID="1" Name="Harpy"/>
       <ArmType ID="2" Name="Spider"/>
+      <ArmType ID="3" Name="Mantis"/>
+      <ArmType ID="4" Name="Bee"/>
+      <ArmType ID="5" Name="Salamander"/>
+      <ArmType ID="6" Name="Phoenix"/>
+      <ArmType ID="7" Name="Plant"/>
+      <ArmType ID="8" Name="Shark"/>
+      <ArmType ID="9" Name="Gargoyle Claws"/>
+      <ArmType ID="10" Name="Wolf"/>
+      <ArmType ID="11" Name="Lion"/>
+      <ArmType ID="12" Name="Kitsune"/>
+      <ArmType ID="13" Name="Fox"/>
+      <ArmType ID="14" Name="Lizard"/>
+      <ArmType ID="15" Name="Draconic"/>
+      <ArmType ID="16" Name="Yeti"/>
+      <ArmType ID="17" Name="Orca"/>
+      <ArmType ID="18" Name="Plant Tentacle"/>
+      <ArmType ID="19" Name="Devil"/>
+      <ArmType ID="20" Name="Oni"/>
+      <ArmType ID="21" Name="Elf"/>
+      <ArmType ID="22" Name="Raiju"/>
+      <ArmType ID="23" Name="Red Panda"/>
+      <ArmType ID="24" Name="Gargoyle"/>
+      <ArmType ID="25" Name="Cat"/>
+      <ArmType ID="26" Name="Avian"/>
+      <ArmType ID="27" Name="Gryphon"/>
+      <ArmType ID="28" Name="Sphinx"/>
+      <ArmType ID="29" Name="Pig NODESC"/>
+      <ArmType ID="30" Name="Boar"/>
+      <ArmType ID="31" Name="Orc"/>
+      <ArmType ID="32" Name="Displacer"/>
+      <ArmType ID="33" Name="Cave Wyrm"/>
+      <ArmType ID="34" Name="Hinezumi"/>
+      <ArmType ID="35" Name="Bear"/>
+      <ArmType ID="36" Name="Goo"/>
+      <ArmType ID="37" Name="Hydra"/>
+      <ArmType ID="38" Name="Ghost"/>
+      <ArmType ID="39" Name="Jiangshi"/>
+      <ArmType ID="40" Name="Raiju Paws"/>
+      <ArmType ID="41" Name="Yuki Onna"/>
+      <ArmType ID="42" Name="Melkie"/>
+      <ArmType ID="43" Name="Centipede"/>
+      <ArmType ID="44" Name="Kraken NODESC"/>
+      <ArmType ID="45" Name="Frostwyrm"/>
+      <ArmType ID="46" Name="Cancer NODESC"/>
+      <ArmType ID="47" Name="Ushi Oni"/>
+      <ArmType ID="48" Name="Kamaitachi"/>
+      <ArmType ID="49" Name="Gazer"/>
+      <ArmType ID="50" Name="Raccoon NODESC"/>
+      <ArmType ID="51" Name="Weasel NODESC"/>
+      <ArmType ID="52" Name="Squirrel"/>
+      <ArmType ID="53" Name="Wendigo"/>
+      <ArmType ID="54" Name="Bat"/>
+      <ArmType ID="55" Name="Sea Dragon"/>
+      <ArmType ID="56" Name="Mindbreaker"/>
+      <ArmType ID="57" Name="Jabberwocky"/>
     </ArmTypes>
     <!-- ========================================================================================================================================== -->
     <ClawTypes>
       <ClawType ID="0" Name="None"/>
+      <ClawType ID="1" Name="Lizard"/>
+      <ClawType ID="2" Name="Dragon"/>
+      <ClawType ID="3" Name="Salamander"/>
       <!-- ClawType ID="4" Name="Cat"/ -->
       <!-- ClawType ID="5" Name="Dog"/ -->
-      <ClawType ID="2" Name="Dragon"/>
-      <ClawType ID="1" Name="Lizard"/>
-      <!-- ClawType ID="7" Name="Mantis"/ -->
       <!-- ClawType ID="6" Name="Raptor"/ -->
-      <ClawType ID="3" Name="Salamander"/>
+      <!-- ClawType ID="7" Name="Mantis"/ -->
+      <!-- ClawType ID="8" Name="Imp"/ -->
+      <!-- ClawType ID="9" Name="Cockatrice"/ -->
+      <!-- ClawType ID="10" Name="Red Panda"/ -->
     </ClawTypes>
     <!-- ========================================================================================================================================== -->
     <ClawTones>
@@ -333,31 +529,57 @@
     <!-- ========================================================================================================================================== -->
     <TailTypes>
       <TailType ID="0"  Name="None"/>
-      <TailType ID="6"  Name="Bee abdomen"/>
-      <TailType ID="18" Name="Behemoth"/>
-      <TailType ID="8"  Name="Cat"/>
-      <TailType ID="4"  Name="Cow/Minotaur"/>
-      <TailType ID="24" Name="Deer"/>
-      <TailType ID="3"  Name="Demonic"/>
-      <TailType ID="2"  Name="Dog"/>
-      <TailType ID="14" Name="Draconic"/>
-      <TailType ID="23" Name="Echidna"/>
-      <TailType ID="17" Name="Ferret"/>
-      <TailType ID="13" Name="Fox"/>
-      <TailType ID="21" Name="Goat"/>
-      <TailType ID="11" Name="Harpy"/>
       <TailType ID="1"  Name="Horse"/>
-      <TailType ID="12" Name="Kangaroo"/>
-      <TailType ID="9"  Name="Lizard"/>
-      <TailType ID="16" Name="Mouse"/>
-      <TailType ID="19" Name="Pig"/>
-      <TailType ID="10" Name="Rabbit"/>
-      <TailType ID="15" Name="Raccoon"/>
-      <TailType ID="22" Name="Rhino"/>
-      <TailType ID="25" Name="Salamander"/>
-      <TailType ID="20" Name="Scorpion"/>
+      <TailType ID="2" Name="Dog"/>
+      <TailType ID="3"  Name="Demonic"/>
+      <TailType ID="4"  Name="Cow/Minotaur"/>
+      <TailType ID="5" Name="Spider Abdomen"/>
+      <TailType ID="6"  Name="Bee Abdomen"/>
       <TailType ID="7"  Name="Shark"/>
-      <TailType ID="5"  Name="Spider adbomen"/>
+      <TailType ID="8" Name="Cat"/>
+      <TailType ID="9" Name="Lizard"/>
+      <TailType ID="10" Name="Rabbit"/>
+      <TailType ID="11"  Name="Harpy"/>
+      <TailType ID="12" Name="Kangaroo"/>
+      <TailType ID="13"  Name="Fox"/>
+      <TailType ID="14"  Name="Draconic"/>
+      <TailType ID="15" Name="Raccoon"/>
+      <TailType ID="16"  Name="Mouse"/>
+      <TailType ID="17"  Name="Ferret NODESC"/>
+      <TailType ID="18" Name="Behemoth"/>
+      <TailType ID="19" Name="Pig"/>
+      <TailType ID="20" Name="Scorpion"/>
+      <TailType ID="21"  Name="Goat"/>
+      <TailType ID="22" Name="Rhino"/>
+      <TailType ID="23"  Name="Echidna"/>
+      <TailType ID="24"  Name="Deer"/>
+      <TailType ID="25" Name="Salamander"/>
+      <TailType ID="26"  Name="Kitshoo NODESC"/>
+      <TailType ID="27"  Name="Mantis Abdomen"/>
+      <TailType ID="28" Name="Manticore Pussytail"/>
+      <TailType ID="29" Name="Wolf"/>
+      <TailType ID="30" Name="Gargoyle (Spike)"/>
+      <TailType ID="31"  Name="Orca"/>
+      <TailType ID="32" Name="Yggdrasil"/>
+      <TailType ID="33"  Name="Raiju"/>
+      <TailType ID="34"  Name="Red Panda"/>
+      <TailType ID="35" Name="Gargoyle (Axe)"/>
+      <TailType ID="36"  Name="Avian"/>
+      <TailType ID="37"  Name="Griffin"/>
+      <TailType ID="38" Name="Lion"/>
+      <TailType ID="39" Name="Burning Cat"/>
+      <TailType ID="40" Name="Nekomata Forked 1/3"/>
+      <TailType ID="41"  Name="Nekomata Forked 2/3"/>
+      <TailType ID="42" Name="Cave Wyrm"/>
+      <TailType ID="43"  Name="Hinezumi"/>
+      <TailType ID="44"  Name="Thunderbird"/>
+      <TailType ID="45" Name="Bear"/>
+      <TailType ID="46"  Name="Twinkasha"/>
+      <TailType ID="47"  Name="Ushi Oni"/>
+      <TailType ID="48" Name="Weasel"/>
+      <TailType ID="49" Name="Squirrel"/>
+      <TailType ID="50" Name="Monkey NODESC"/>
+      <TailType ID="51" Name="Wendigo"/>
     </TailTypes>
     <!-- ========================================================================================================================================== -->
     <WingTypes>
@@ -386,29 +608,77 @@
     </WingDescriptions>
     <!-- ========================================================================================================================================== -->
     <LowerBodyTypes>
-      <LowerBodyType ID="7"  Name="Bee"/>
-      <LowerBodyType ID="12" Name="Bunny"/>
-      <LowerBodyType ID="9"  Name="Cat"/>
-      <LowerBodyType ID="15" Name="Chitinous spider legs"/>
-      <LowerBodyType ID="21" Name="Cloven-hoofed"/>
-      <LowerBodyType ID="6"  Name="Demonic claws"/>
-      <LowerBodyType ID="5"  Name="Demonic high-heels"/>
-      <LowerBodyType ID="2"  Name="Dog"/>
-      <LowerBodyType ID="18" Name="Dragon"/>
-      <LowerBodyType ID="16" Name="Drider"/>
-      <LowerBodyType ID="23" Name="Echidna"/>
-      <LowerBodyType ID="20" Name="Ferret"/>
-      <LowerBodyType ID="17" Name="Fox"/>
-      <LowerBodyType ID="8"  Name="Goo"/>
-      <LowerBodyType ID="13" Name="Harpy"/>
-      <LowerBodyType ID="1"  Name="Hoofed"/>
       <LowerBodyType ID="0"  Name="Human"/>
-      <LowerBodyType ID="14" Name="Kangaroo"/>
+      <LowerBodyType ID="1" Name="Hoofed"/>
+      <LowerBodyType ID="2"  Name="Dog"/>
+      <LowerBodyType ID="3" Name="Naga"/>
+      <LowerBodyType ID="4" Name="Centaur"/>
+      <LowerBodyType ID="5"  Name="Demonic High-heels"/>
+      <LowerBodyType ID="6"  Name="Demonic Claws"/>
+      <LowerBodyType ID="7"  Name="Bee"/>
+      <LowerBodyType ID="8" Name="Goo"/>
+      <LowerBodyType ID="9" Name="Cat"/>
       <LowerBodyType ID="10" Name="Lizard"/>
-      <LowerBodyType ID="3"  Name="Naga"/>
       <LowerBodyType ID="11" Name="Pony"/>
+      <LowerBodyType ID="12"  Name="Bunny"/>
+      <LowerBodyType ID="13" Name="Harpy"/>
+      <LowerBodyType ID="14" Name="Kangaroo"/>
+      <LowerBodyType ID="15"  Name="Chitinous spider legs"/>
+      <LowerBodyType ID="16"  Name="Drider"/>
+      <LowerBodyType ID="17"  Name="Fox"/>
+      <LowerBodyType ID="18" Name="Dragon"/>
       <LowerBodyType ID="19" Name="Raccoon"/>
-      <LowerBodyType ID="25" Name="Salamander"/>
+      <LowerBodyType ID="20" Name="Ferret"/>
+      <LowerBodyType ID="21" Name="Cloven-hoofed"/>
+      <LowerBodyType ID="23" Name="Echidna NODESC"/>
+      <LowerBodyType ID="25"  Name="Salamander"/>
+      <LowerBodyType ID="26"  Name="Scylla"/>
+      <LowerBodyType ID="27"  Name="Mantis"/>
+      <LowerBodyType ID="29" Name="Shark"/>
+      <LowerBodyType ID="30" Name="Gargoyle Claws"/>
+      <LowerBodyType ID="31" Name="Plant High-heels"/>
+      <LowerBodyType ID="32"  Name="Plant Root Claws"/>
+      <LowerBodyType ID="33" Name="Wolf"/>
+      <LowerBodyType ID="34" Name="Plant Flower"/>
+      <LowerBodyType ID="35"  Name="Lion"/>
+      <LowerBodyType ID="36"  Name="Yeti"/>
+      <LowerBodyType ID="37"  Name="Orca"/>
+      <LowerBodyType ID="38" Name="Yggdrasil Root Claws"/>
+      <LowerBodyType ID="39" Name="Oni"/>
+      <LowerBodyType ID="40" Name="Elf"/>
+      <LowerBodyType ID="41" Name="Raiju"/>
+      <LowerBodyType ID="42" Name="Red Panda"/>
+      <LowerBodyType ID="43" Name="Gargoyle"/>
+      <LowerBodyType ID="44" Name="Avian"/>
+      <LowerBodyType ID="45"  Name="Gryphon"/>
+      <LowerBodyType ID="46"  Name="Orc"/>
+      <LowerBodyType ID="47"  Name="Cave Wyrm"/>
+      <LowerBodyType ID="48" Name="Mouse"/>
+      <LowerBodyType ID="49" Name="Hinezumi"/>
+      <LowerBodyType ID="50" Name="Bear"/>
+      <LowerBodyType ID="51" Name="Hydra"/>
+      <LowerBodyType ID="52"  Name="Fire Snail"/>
+      <LowerBodyType ID="53" Name="Ghost"/>
+      <LowerBodyType ID="54" Name="Ghost No Legs"/>
+      <LowerBodyType ID="55"  Name="Jiangshi"/>
+      <LowerBodyType ID="56"  Name="Yuki Onna"/>
+      <LowerBodyType ID="57"  Name="Melkie"/>
+      <LowerBodyType ID="58" Name="Centipede"/>
+      <LowerBodyType ID="59" Name="Kraken"/>
+      <LowerBodyType ID="60" Name="Crab"/>
+      <LowerBodyType ID="61" Name="Cancer"/>
+      <LowerBodyType ID="62"  Name="Frostwyrm"/>
+      <LowerBodyType ID="63" Name="Ushi Oni"/>
+      <LowerBodyType ID="64" Name="Liliraune Flower"/>
+      <LowerBodyType ID="65"  Name="Weasel"/>
+      <LowerBodyType ID="66"  Name="Gazer"/>
+      <LowerBodyType ID="67"  Name="Squirrel"/>
+      <LowerBodyType ID="68" Name="Wendigo"/>
+      <LowerBodyType ID="69" Name="Atlach Nacha"/>
+      <LowerBodyType ID="70" Name="Sea Dragon"/>
+      <LowerBodyType ID="71" Name="Mindbreaker"/>
+      <LowerBodyType ID="72"  Name="Mindbreaker (Male)"/>
+      <LowerBodyType ID="73" Name="Jabberwocky"/>
     </LowerBodyTypes>
     <!-- ========================================================================================================================================== -->
     <PiercingTypes>
@@ -471,9 +741,20 @@
     </CockSockTypes>
     <!-- ========================================================================================================================================== -->
     <VaginaTypes>
-      <VaginaType ID="5" Name="Black (Sand Trap)"/>
-      <VaginaType ID="1" Name="Horse"/>
       <VaginaType ID="0" Name="Human"/>
+      <VaginaType ID="1" Name="Horse"/>
+      <VaginaType ID="5" Name="Black (Sand Trap)"/>
+      <VaginaType ID="6" Name="Black (Sand Trap)"/>
+      <VaginaType ID="7" Name="Venom Dripping"/>
+      <VaginaType ID="8" Name="Manticore"/>
+      <VaginaType ID="9" Name="Cancer"/>
+      <VaginaType ID="10" Name="Demonic"/>
+      <VaginaType ID="11" Name="Alraune"/>
+      <VaginaType ID="12" Name="Scylla"/>
+      <VaginaType ID="13" Name="Naga"/>
+      <VaginaType ID="14" Name="Mindbreaker"/>
+      <VaginaType ID="15" Name="Shark"/>
+      <VaginaType ID="16" Name="Raiju"/>
     </VaginaTypes>
     <!-- ========================================================================================================================================== -->
     <VaginalWetnessLevels>

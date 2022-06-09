@@ -130,13 +130,13 @@ namespace CoCEd.ViewModel
 
             // Is this save from Vanilla, Revamp, or Xianxia?
             ModType modType;
-            //if (_currentFile.Contains("soulforce"))
-            //{
-            //    modType = ModType.Xianxia;
-            //    XmlData.Select(XmlData.Files.Xianxia);
-            //}
+            if (_currentFile.Contains("soulforce"))
+            {
+                modType = ModType.Xianxia;
+                XmlData.Select(XmlData.Files.Xianxia);
+            }
             //else
-            if (_currentFile.Contains("hunger"))
+            else if (_currentFile.Contains("hunger"))
             {
                 modType = ModType.Revamp;
                 XmlData.Select(XmlData.Files.Revamp);

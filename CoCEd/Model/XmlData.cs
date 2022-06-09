@@ -20,12 +20,12 @@ namespace CoCEd.Model
         {
             public const string Vanilla = "CoCEd.Data.xml";
             public const string Revamp = "CoCEd.DataRevamp.xml";
-            //public const string Xianxia = "CoCEd.DataXianxia.xml";
+            public const string Xianxia = "CoCEd.DataXianxia.xml";
             public static readonly IEnumerable<string> All = new string[]
             {
                 Vanilla,
                 Revamp,
-                //Xianxia,
+                Xianxia,
             };
         }
 
